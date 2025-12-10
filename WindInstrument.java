@@ -5,7 +5,9 @@ public class WindInstrument extends Instrument{
 	static {
 		System.out.println("La classe Vent s'ha carregat");
 	}
-	
+
+    public static String tipus = "Instrument de Vent";
+
 	public WindInstrument(String name, int price) {
 		super(name, price);
 	}
