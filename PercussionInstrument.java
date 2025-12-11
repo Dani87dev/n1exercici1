@@ -3,7 +3,7 @@ package n1exercici1;
 public class PercussionInstrument extends Instrument{
 
 	static {
-		System.out.println("La classe Percussió s'ha carregat");
+		System.out.println("Percussion class is loaded");
 	}
 	
 	public PercussionInstrument(String name, int price) {
@@ -14,7 +14,7 @@ public class PercussionInstrument extends Instrument{
 	//métode sobreescrit
     @Override
 	public void play() {
-		System.out.println("Està sonant un instrument de percussió");
+		System.out.println("A percussion instrument is playing");
 	}
 	
 	

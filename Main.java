@@ -4,20 +4,20 @@ public class Main {
 
 	public static void main(String[] args) {
 
-        System.out.println("Demostrant que al cridar a un atribut static es carrega la classe");
-        String tipusVent =  WindInstrument.tipus;
+        System.out.println("Demonstrating that accessing a static attribute loads the class");
+        String windType =  WindInstrument.typeInstrument;
 
-        System.out.println("\nCreant un objecte de cada tipus de Instrument");
-        //Creo un objecte de cada tipus
-        StringInstrument guitarraDani = new StringInstrument("guitarra", 135);
-        PercussionInstrument tamborDani = new PercussionInstrument("tambor dani", 135);
-        WindInstrument trompetaDani = new WindInstrument("trompeta", 65);
+        System.out.println("\nCreating an object of each type of Instrument");
+        //Create each type of class
+        StringInstrument guitarDani = new StringInstrument("guitar", 135);
+        PercussionInstrument drumDani = new PercussionInstrument("drum Dani", 135);
+        WindInstrument trumpetDani = new WindInstrument("trumpet", 65);
 
-        System.out.println("\nCridant al métode play de cada objecte creat");
-        //cridar al métode play() de cada objecte creat
-        guitarraDani.play();
-        tamborDani.play();
-        trompetaDani.play();
+        System.out.println("\nCalling the play() method on each created object");
+        //call to play() method of each object created
+        guitarDani.play();
+        drumDani.play();
+        trumpetDani.play();
 
 
 	}

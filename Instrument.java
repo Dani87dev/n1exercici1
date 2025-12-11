@@ -6,27 +6,27 @@ public abstract class Instrument {
 	private int price;
 	
 	//Constructor
-	public Instrument(String nom, int preu) {
-		this.name = nom;
-		this.price = preu;
+	public Instrument(String name, int price) {
+		this.name = name;
+		this.price = price;
 	}
 	
 	//Getters && Setters
-	public String getNom() {
+	public String getName() {
 		return this.name;
 	}
-	public int getPreu() {
+	public int getPrice() {
 		return this.price;
 	}
-	public void setNom(String nom ) {
-		this.name = nom;
+	public void setName(String nom ) {
+		this.name = name;
 	}
-	public void setPreu(int preu) {
-		this.price = preu;
+	public void setPrice(int preu) {
+		this.price = price;
 	}
 	
 	
 	//Métodes
 	public abstract void play();
-		//sense implementar
+		//without implementing
 }
